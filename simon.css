@@ -1,0 +1,169 @@
+/*
+Color Palette
+Green: #068000
+GreenHover: #23D11A
+Red: #9c0004
+RedHover: #FA1A20
+Orange: #9e4600
+OrangeHover: #FC7E1A
+Blue: #005f5c
+BlueHover: #1AA39E
+PanelBorder: #79523a
+Silver: #d6d6d6
+
+
+button:focus {outline:0;}
+*/
+/*
+on mouse down and on mouse up change background
+*/
+.jumbotron {
+  background: #A1FFCE;
+  background: -webkit-linear-gradient(#A1FFCE, #103044);
+  background: -o-linear-gradient(#A1FFCE, #103044);
+  background: -moz-linear-gradient(#A1FFCE, #103044);
+  background: linear-gradient(#A1FFCE, #103044);
+}
+
+button {
+  margin: 0px;
+}
+
+#start {
+  margin-bottom: 20px;
+}
+
+.panel {
+  padding-top: 4px;
+  display: block;
+  margin: auto;
+  width: 386px;
+  height: 386px;
+  border-radius: 100% 100% 100% 100%;
+  background-color: #white;
+}
+
+.circle {
+  font-size: 45px;
+  color: white;
+  padding-top: 45px;
+  position: absolute;
+  background-color: #091c28;
+  height: 240px;
+  width: 240px;
+  margin-left: 72px;
+  margin-top: 68px;
+  border: 3px solid black;
+  border-radius: 100% 100% 100% 100%;
+}
+
+#strict1 {
+  background-color: transparent;
+  color: white;
+  border: none;
+}
+
+#strict1:focus {
+  outline:0;
+}
+
+#green{
+  margin-right: 1px;
+}
+
+.green {
+  background-color: #068000;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 100% 0 0 0;
+}
+.green:hover {
+  background-color: #23D11A;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 100% 0 0 0;
+}
+
+.green:focus {
+  outline:0;
+}
+
+#red {
+  margin-left: 1px;
+}
+
+.red {
+  background-color: #9c0004;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 100% 0 0;
+}
+
+.red:hover {
+  background-color: #FA1A20;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 100% 0 0;
+}
+
+.red:focus {
+  outline:0;
+}
+
+#orange {
+  margin-right: 1px;
+}
+
+.orange {
+  background-color: #9e4600;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 0 0 100%;
+}
+
+.orange:hover {
+  background-color: #FC7E1A;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 0 0 100%;
+}
+
+.orange:focus {
+  outline:0;
+}
+
+#blue {
+  margin-left: 1px;
+}
+
+.blue {
+  background-color: #005f5c;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 0 100% 0;
+}
+
+.blue:hover {
+  background-color: #1AA39E;
+  height: 188px;
+  width: 188px;
+  border: none;
+  border-radius: 0 0 100% 0;
+}
+
+.blue:focus {
+  outline:0;
+}
+
+.done {
+  margin-top: 20px;
+  color: #FA1A20;
+  font-size: 70px;
+}
